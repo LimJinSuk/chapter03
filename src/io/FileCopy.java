@@ -19,6 +19,7 @@ public class FileCopy {
 			fos = new FileOutputStream("./S_4.gif");
 			
 			int data=-1;
+			//fis.read() : 입력 소스로부터 데이터를 읽기 위해 처음으로 read 메서드를 호출
 			while((data=fis.read())!=-1){
 				fos.write(data);
 			}

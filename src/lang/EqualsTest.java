@@ -13,6 +13,7 @@ public class EqualsTest {
 		//==연산자에서 두개의 항이 객체 참조 변수인 경우,
 		//두 객체의 동일여부(동일성)을 체크함 .True/False
 		System.out.println(pt1==pt2);
+		
 		System.out.println(pt2==pt3);
 		
 		//두 객체의 동질성 비교를 할 때에는 equals()사용.

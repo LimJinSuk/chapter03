@@ -11,7 +11,11 @@ public class FileReaderTest {
 		FileReader fr = null;
 		FileInputStream fis=null;
 		try {
+			//"안녕하세요"
+			//문자기반-5번읽음
 			fr = new FileReader("hello.txt");
+			//한글 -3바이트 구성(UTF-8)
+			//바이트기반 스트림=15번을 읽음
 			fis = new FileInputStream("hello.txt");
 			int count=0;
 			int data=-1;

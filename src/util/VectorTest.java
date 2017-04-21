@@ -7,13 +7,14 @@ public class VectorTest {
 
 	public static void main(String[] args) {
 		Vector<String> v=new Vector<String>();
-		
+		System.out.println("Size="+v.size()+" Capacity="+v.capacity());
 		//1.2이전 버전 메서드
 		
 		v.addElement("둘리");
 		v.addElement("마이콜");
 		v.addElement("도우넛");
 		
+		System.out.println("Size="+v.size()+" Capacity="+v.capacity());
 		//순회 1
 		int count = v.size();
 		for(int i=0; i<count; i++){
